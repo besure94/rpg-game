@@ -11,4 +11,12 @@ export class Sniper {
   assignName(playerName) {
     this.name = playerName;
   }
+
+  assignNumbers(speedAttr, strengthAttr, stealthAttr, accuracyAttr, speechAttr) {
+    this.speed = speedAttr;
+    this.strength = strengthAttr;
+    this.stealth = stealthAttr;
+    this.accuracy = accuracyAttr;
+    this.speech = speechAttr;
+  }
 }
