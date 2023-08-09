@@ -33,3 +33,12 @@
 * _should go here_
 
 ## License
+
+Steps:
+
+RPG will be set in a post apocalyptic environment.
+
+1. Create a class constructor for each character type.
+    * There will be four character types (four constructors).
+    * Each constructor will have properties for speed, strength, stealth, accuracy, and speech.
+2.
