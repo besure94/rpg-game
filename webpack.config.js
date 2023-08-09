@@ -19,7 +19,7 @@ module.exports = {
 			verbose: true
 		}),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'RPG Game',
       template: './src/index.html',
       inject: 'body'
     })
