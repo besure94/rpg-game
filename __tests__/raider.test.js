@@ -14,16 +14,16 @@ describe('Raider', () => {
     expect(raider.accuracy).toEqual(0);
     expect(raider.speech).toEqual(0);
   });
+  test('should contain a method to create a name that the user can enter', () => {
+    raider.assignName("Popeye");
+    expect(raider.name).toEqual("Popeye");
+  });
   test('should contain a method that will add a number between 1 and 5 to each property', () => {
-    raider.assignNumbers(3, 4, 2, 2, 4);
-    expect(raider.speed).toEqual(3);
+    raider.assignNumbers(4, 4, 2, 2, 4);
+    expect(raider.speed).toEqual(4);
     expect(raider.strength).toEqual(4);
     expect(raider.stealth).toEqual(2);
     expect(raider.accuracy).toEqual(2);
     expect(raider.speech).toEqual(4);
-  });
-  test('should contain a method to create a name that the user can enter', () => {
-    raider.assignName("Popeye");
-    expect(raider.name).toEqual("Popeye");
   });
 });
