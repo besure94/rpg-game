@@ -19,11 +19,11 @@ describe('Sniper', () => {
     expect(sniper.name).toEqual("Deadeye");
   });
   test('should contain a method that will add a number between 1 and 5 to each property', () => {
-    sniper.assignNumbers(4, 2, 4, 5, 1);
-    expect(sniper.speed).toEqual(4);
+    sniper.assignNumbers(3, 2, 4, 5, 2);
+    expect(sniper.speed).toEqual(3);
     expect(sniper.strength).toEqual(2);
     expect(sniper.stealth).toEqual(4);
     expect(sniper.accuracy).toEqual(5);
-    expect(sniper.speech).toEqual(1);
+    expect(sniper.speech).toEqual(2);
   });
 });
